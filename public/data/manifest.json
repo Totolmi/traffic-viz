@@ -1,0 +1,119 @@
+[
+  {
+    "file": "cleaned_data.json",
+    "rows": 19778,
+    "cols": [
+      "imsi",
+      "time",
+      "lac_id",
+      "cell_id",
+      "longitude",
+      "latitude"
+    ],
+    "size_kb": 2681.3
+  },
+  {
+    "file": "heatmap_result.json",
+    "rows": 7460,
+    "cols": [
+      "hour",
+      "lon_bin",
+      "lat_bin",
+      "count"
+    ],
+    "size_kb": 399.5
+  },
+  {
+    "file": "mode_result.json",
+    "rows": 9081,
+    "cols": [
+      "imsi",
+      "time",
+      "longitude",
+      "latitude",
+      "dist_m",
+      "mode",
+      "name",
+      "line"
+    ],
+    "size_kb": 1651.2
+  },
+  {
+    "file": "purpose_result.json",
+    "rows": 10310,
+    "cols": [
+      "imsi",
+      "time",
+      "longitude",
+      "latitude",
+      "dist_m",
+      "purpose",
+      "name"
+    ],
+    "size_kb": 1709.2
+  },
+  {
+    "file": "stage1_travel_points.json",
+    "rows": 19778,
+    "cols": [
+      "imsi",
+      "time",
+      "lac_id",
+      "cell_id",
+      "longitude",
+      "latitude",
+      "is_low_freq",
+      "segment_id",
+      "speed",
+      "is_travel_stage1"
+    ],
+    "size_kb": 4153.5
+  },
+  {
+    "file": "stage2_cluster.json",
+    "rows": 19778,
+    "cols": [
+      "imsi",
+      "time",
+      "lac_id",
+      "cell_id",
+      "longitude",
+      "latitude",
+      "is_travel_stage1",
+      "is_travel_stage12",
+      "cluster_id"
+    ],
+    "size_kb": 3950.7
+  },
+  {
+    "file": "stage2_sse_curve.json",
+    "rows": 1799,
+    "cols": [
+      "imsi",
+      "k",
+      "sse",
+      "n_points"
+    ],
+    "size_kb": 118.8
+  },
+  {
+    "file": "stage3_label.json",
+    "rows": 19778,
+    "cols": [
+      "imsi",
+      "time",
+      "lac_id",
+      "cell_id",
+      "longitude",
+      "latitude",
+      "is_travel_stage1",
+      "is_travel_stage12",
+      "cluster_id",
+      "dist_to_center",
+      "time_span_hours",
+      "point_type",
+      "label"
+    ],
+    "size_kb": 5638.4
+  }
+]
